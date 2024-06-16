@@ -75,8 +75,8 @@ TEMPLATES = [
         },
     },
 ]
-
-
+#when external database is used we should specify its name here
+'''
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -87,7 +87,7 @@ DATABASES = {
         'PORT': '5432',
     }
 }
-
+'''
 WSGI_APPLICATION = 'paragraph.wsgi.application'
 
 
